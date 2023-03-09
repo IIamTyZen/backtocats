@@ -130,14 +130,25 @@ html{
                         
                     }
 
-                    p{
-                        max-width: 40%;
-                        color: #fff;
+                    .first-el{
+                        max-width: 50%;
 
                         @media screen and (max-width: 530px){
-                            max-width: 85%;
-                            margin-bottom: 1rem;
-                            text-align: center;
+                            max-width: 70%;
+                        }
+                        p{
+                            max-width: 40%;
+                            color: #fff;
+    
+                            @media screen and (max-width: 530px){
+                                max-width: 85%;
+                                margin-bottom: 1rem;
+                                text-align: center;
+                            }
+                        }
+
+                        .plateau-img{
+                            width: 40%;
                         }
                     }
 

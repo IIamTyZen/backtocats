@@ -145,17 +145,31 @@ html body main .about-sct .txt {
   }
 }
 
-html body main .about-sct .txt p {
+html body main .about-sct .txt .first-el {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 530px) {
+  html body main .about-sct .txt .first-el {
+    max-width: 70%;
+  }
+}
+
+html body main .about-sct .txt .first-el p {
   max-width: 40%;
   color: #fff;
 }
 
 @media screen and (max-width: 530px) {
-  html body main .about-sct .txt p {
+  html body main .about-sct .txt .first-el p {
     max-width: 85%;
     margin-bottom: 1rem;
     text-align: center;
   }
+}
+
+html body main .about-sct .txt .first-el .plateau-img {
+  width: 40%;
 }
 
 @media screen and (max-width: 530px) {
