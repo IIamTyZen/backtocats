@@ -59,7 +59,7 @@ html{
 
     /*=============== Header ===============*/
     body{
-        background-color: $first-color;
+        background-color: #868786 !important;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
@@ -69,7 +69,23 @@ html{
             .first-sct{
                 margin-top: 20rem;
                 display: flex;
-                justify-content: end;
+                justify-content: space-around;
+                align-items: center;
+
+                div{
+                    a{
+                        text-decoration: none;
+                        border: 1px solid $orange;
+                        color: #FFF;
+                        border-radius: 1rem;
+                        padding: 16px;
+
+                        &:hover{
+                            background-color: $orange;
+                            transition: 0,8s ease-in;
+                        }
+                    }
+                }
 
                 img{
                     width: 30%;
@@ -277,7 +293,7 @@ html{
                 margin-bottom: 3rem;
                 span{
                     color: #fff;
-    
+                    text-align: center;
                 }
             }
         }
