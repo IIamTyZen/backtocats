@@ -112,9 +112,9 @@ html body main .about-sct .txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -350,6 +350,76 @@ html body main .team .team-card .parent img {
   height: 180px;
   border-radius: 0.5rem;
   border-bottom: 3px solid #F5A95F;
+}
+
+html body main .donation-goal {
+  margin-top: 3rem;
+}
+
+html body main .donation-goal .separator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+html body main .donation-goal .separator h2 {
+  color: #fff;
+}
+
+html body main .donation-goal .separator hr {
+  width: 90%;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #F5A95F;
+}
+
+html body main .donation-goal .parent-crd {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+html body main .donation-goal .parent-crd .crd {
+  width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #F5A95F;
+  color: #fff;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+html body main .donation-goal .parent-crd .crd:hover {
+  background-color: #F5A95F;
+  -webkit-transition: 0.8s ease-in;
+  transition: 0.8s ease-in;
 }
 
 html body footer hr {
